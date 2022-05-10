@@ -3,7 +3,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'GeoFire' do
-  pod 'Firebase/Database'
+  pod 'FirebaseDatabase'
 
   target 'GeoFireTests' do
     inherit! :search_paths
